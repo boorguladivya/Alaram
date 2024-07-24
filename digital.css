@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(45deg,rgb(62, 135, 62),rgba(6, 96, 25, 0.991),rgb(134, 168, 134));
+    position: relative;
+    top: -120px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ 
+}
+
+#logo{
+    width: 100px;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+    text-shadow: 3px 3px 3px black;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+#menu{
+    width:50%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3vw;
+   
+    color: white;
+    text-shadow: 3px 3px 3px black;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
+body{
+    background-size: 100% 100vh;
+    position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    width: 100%;
+    height:100vh;
+
+}
+#container{
+    width: 53vw;
+    height: 430px;
+    background-color: rgba(137, 134, 134, 0.49);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Time{
+    color:white;
+    font-size: 8vw;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 10px;
+    
+}
+#Date,#Day{
+    color:whitesmoke;
+    font-size: 4vw;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 10px;
+}
+#Sec{
+    position: absolute;
+    top: 250px;
+    z-index: -1;
+    font-size: 19vw;
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px black;
+}
+h1{
+    color: white;
+}
+  
+/* ----------code for alaram setting-------------- */
+
+#alarmWindow{
+    background-size: 100% 1000px;
+    width: 100%;
+    height: 800px;
+    border-radius: 5px;
+    background-image: url(./sat.jpg);
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   display: none;
+}
+#set{
+    
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-image: url(./mon.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#min,#hr,#meridian{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(57, 54, 54);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.submit{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+   
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}  
+.submit sub{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+   
+    box-shadow: 2px 2px 5px black;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}
+#close{
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+   
+    position:absolute;
+    cursor: pointer;
+    left: 35%;
+    bottom: 63%;
+}
+#icon{
+    width: 30px;
+    height: 30px;
+ 
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
